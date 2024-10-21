@@ -11,7 +11,11 @@ const Hamburger = () => {
   
   if(!isSideBarOpen) {
     return (
-        <Menu className="h-4 w-4 dark:text-white text-gray-800 cursor-pointer" onClick={() => dispatch(toggleState(true))}/>
+      <div className="p-2 cursor-pointer dark:text-white text-gray-800 hover:bg-gray-400 dark:hover:bg-white dark:hover:text-gray-800 hover:bg-opacity-20 rounded-full" 
+        onClick={() => dispatch(toggleState(true))}
+      >
+        <Menu className="h-[18px] w-[18px]"/>
+      </div>
     )
   }
 }

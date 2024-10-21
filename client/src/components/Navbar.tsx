@@ -1,4 +1,4 @@
-import { Ham, Search, Settings } from "lucide-react";
+import { Search, Settings } from "lucide-react";
 import Link from "next/link";
 import ThemeIcon from "./ThemeIcon";
 import Hamburger from "./Hamburger";
